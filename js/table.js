@@ -9,7 +9,7 @@ var dataset = [
 	["12-12-2020", "2 pm - 5 pm", "Internet Technology Laboratory", "CS795D", "Practical"],
 	
 	["14-12-2020", "4 pm - 7 pm", "Artificial Intelligence", "CS701", "Theory"],
-	["15-12-2020", "4 pm - 7 pm", "Cryptography and Network Security", "CS702", "Theory"],
+	["15-12-2020", "4 pm - 7 pm", "Cryptography & Network Security", "CS702", "Theory"],
 	["16-12-2020", "4 pm - 7 pm", "Compiler Design", "CS703", "Theory"],
 	["21-12-2020", "4 pm - 7 pm", "Image Processing", "CS704D", "Theory"],
 	["22-12-2020", "4 pm - 7 pm", "Internet Technology", "CS705D", "Theory"],
