@@ -40,13 +40,24 @@
 				font-family: 'Google Sans', sans-serif;
 			}
 
+			a {
+				color: blue;
+			}
+
+			a:hover {
+				color: darkblue;
+			}
+
 			table {
 				font-family: 'Google Sans', sans-serif;
 				font-weight: 500;
 			}
 
 			body {
-				background-color: aquamarine;
+				background: #009FFF;
+				/* fallback for old browsers */
+				background-color: #74EBD5;
+				background-image: linear-gradient(0deg, #74EBD5 0%, #9FACE6 100%);
 			}
 
 		</style>
@@ -63,11 +74,11 @@
 					<input type="text" id="searchBox" class="form-control" placeholder="Search Anything here">
 				</div>
 			</div>
-			
+
 			<div class="row">
 				<div class="dt-buttons mx-auto">
 					<button id="practical" class="btn btn-primary">Practical</button>
-					<button id="theory" class="btn btn-danger">Theory</button>
+					<button id="theory" class="btn btn-success">Theory</button>
 				</div>
 			</div>
 			<br>
@@ -101,4 +112,5 @@
 		<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/r-2.2.6/datatables.min.js"></script>
 		<script src="js/table.js"></script>
 	</body>
+
 </html>
