@@ -54,4 +54,4 @@ $('#theory').on('click', function () {
 	$('#myTable').DataTable().columns(4).search("Theory", true, false, true).draw();
 });
 
-document.getElementById("practical").click();
+document.getElementById("theory").click();
